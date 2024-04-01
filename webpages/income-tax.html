@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Income Tax Calculator</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>CaTax</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./sales-tax.html">Sales Tax</a></li>
+          <li><a href="./change.html">Change</a></li>
+          <li><a href="./income-tax.html" class="active">Income Tax</a></li>
+          <li><a href="./form-validation.html">Form Validation</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>Income Tax Calculator</h2>
+    <form>
+      <div class="form-group">
+        <label for="income">Taxable Income:</label>
+        <input type="text" id="income" placeholder="Enter taxable income">
+      </div>
+      <div class="form-group">
+        <label for="tax">Income Tax:</label>
+        <input type="text" id="tax" disabled>
+      </div>
+      <div class="form-group">
+        <button type="button" id="calculateButton">Calculate</button>
+        <button type="reset" id="clearButton">Clear</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; Copyright Kirtirajsinh</p>
+  </footer>
+
+  <script src="../js/income-tax.js"></script>
+</body>
+</html>

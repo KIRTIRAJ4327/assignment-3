@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <h1>CaTax</h1>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./sales-tax.html">Sales Tax</a></li>
+          <li><a href="./change.html">Change</a></li>
+          <li><a href="./income-tax.html">Income Tax</a></li>
+          <li><a href="./form-validation.html" class="active">Form Validation</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2>Reservation Form</h2>
+    <form id="reservationForm">
+      <section>
+        <h3>General Information</h3>
+        <div class="form-group">
+          <label for="arrivalDate">Arrival Date:</label>
+          <input type="text" id="arrivalDate" placeholder="Enter arrival date">
+        </div>
+        <div class="form-group">
+          <label for="nights">Number of Nights:</label>
+          <input type="number" id="nights" placeholder="Enter number of nights" min="1">
+        </div>
+        <div class="form-group">
+          <label for="adults">Number of Adults:</label>
+          <select id="adults">
+            <option value="">Select</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="children">Number of Children:</label>
+          <select id="children">
+            <option value="">Select</option>
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+      </section>
+
+      <section>
+        <h3>Preferences</h3>
+        <div class="form-group">
+            <label>Room Type:</label>
+            <div class="radio-group">
+              <input type="radio" id="standard" name="roomType" value="standard">
+              <label for="standard">Standard</label>
+              <input type="radio" id="business" name="roomType" value="business">
+              <label for="business">Business</label>
+              <input type="radio" id="suite" name="roomType" value="suite">
+              <label for="suite">Suite</label>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Bed Type:</label>
+            <div class="radio-group">
+              <input type="radio" id="king" name="bedType" value="king">
+              <label for="king">King</label>
+              <input type="radio" id="double" name="bedType" value="double">
+              <label for="double">Double</label>
+            </div>
+          </div>
+        <div class="form-group">
+          <label>Smoking:</label>
+          <div class="checkbox-group">
+            <input type="checkbox" id="smoking" name="smoking" value="smoking">
+            <label for="smoking">Smoking Room</label>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3>Contact Information</h3>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input type="tel" id="phone" placeholder="Enter your phone number">
+        </div>
+      </section>
+
+      <div class="form-group">
+        <button type="submit">Submit Request</button>
+        <button type="reset">Clear</button>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; Copyright Kirtirajsinh</p>
+  </footer>
+
+  <script src="../js/form-validation.js"></script>
+</body>
+</html>
