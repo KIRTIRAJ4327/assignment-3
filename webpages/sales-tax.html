@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sales Tax Calculator</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style1.css">
 </head>
 <body>
   <header>
@@ -23,33 +23,35 @@
   </header>
 
   <main>
-    <h2>Sales Tax Calculator</h2>
-    <form>
-      <div class="form-group">
-        <label for="subtotal">Subtotal:</label>
-        <input type="text" id="subtotal" placeholder="Enter subtotal">
-      </div>
-      <div class="form-group">
-        <label for="taxRate">Tax Rate (%):</label>
-        <input type="text" id="taxRate" placeholder="Enter tax rate">
-      </div>
-      <div class="form-group">
-        <label for="tax">Sales Tax:</label>
-        <input type="text" id="tax" disabled>
-      </div>
-      <div class="form-group">
-        <label for="total">Total:</label>
-        <input type="text" id="total" disabled>
-      </div>
-      <div class="form-group">
-        <button type="button" id="calculateButton">Calculate</button>
-        <button type="reset" id="clearButton">Clear</button>
-      </div>
-    </form>
+    <div class="mainw">
+      <h2>Sales Tax Calculator</h2>
+      <form>
+        <div class="form-group">
+          <label for="subtotal">Subtotal:</label>
+          <input type="text" id="subtotal" placeholder="Enter subtotal">
+        </div>
+        <div class="form-group">
+          <label for="taxRate">Tax Rate (%):</label>
+          <input type="text" id="taxRate" placeholder="Enter tax rate">
+        </div>
+        <div class="form-group">
+          <label for="tax">Sales Tax:</label>
+          <input type="text" id="tax" disabled>
+        </div>
+        <div class="form-group">
+          <label for="total">Total:</label>
+          <input type="text" id="total" disabled>
+        </div>
+        <div class="form-group">
+          <button type="button" id="calculateButton">Calculate</button>
+          <button type="reset" id="clearButton">Clear</button>
+        </div>
+      </form>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; Copyright Kirtirajsinh</p>
+    <p>&copy; Kirtirajsinh Atodariya All rights reserved.</p>
   </footer>
 
   <script src="../js/sales-tax.js"></script>

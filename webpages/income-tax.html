@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Income Tax Calculator</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style1.css">
 </head>
 <body>
   <header>
+    
     <div class="header-content">
       <h1>CaTax</h1>
       <nav>
@@ -23,25 +24,27 @@
   </header>
 
   <main>
-    <h2>Income Tax Calculator</h2>
-    <form>
-      <div class="form-group">
-        <label for="income">Taxable Income:</label>
-        <input type="text" id="income" placeholder="Enter taxable income">
-      </div>
-      <div class="form-group">
-        <label for="tax">Income Tax:</label>
-        <input type="text" id="tax" disabled>
-      </div>
-      <div class="form-group">
-        <button type="button" id="calculateButton">Calculate</button>
-        <button type="reset" id="clearButton">Clear</button>
-      </div>
-    </form>
+    <div class="mainw">
+      <h2>Income Tax Calculator</h2>
+      <form>
+        <div class="form-group">
+          <label for="income">Taxable Income:</label>
+          <input type="text" id="income" placeholder="Enter taxable income">
+        </div>
+        <div class="form-group">
+          <label for="tax">Income Tax:</label>
+          <input type="text" id="tax" disabled>
+        </div>
+        <div class="form-group">
+          <button type="button" id="calculateButton">Calculate</button>
+          <button type="reset" id="clearButton">Clear</button>
+        </div>
+      </form>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; Copyright Kirtirajsinh</p>
+    <p>&copy; Kirtirajsinh Atodariya All rights reserved.</p>
   </footer>
 
   <script src="../js/income-tax.js"></script>
