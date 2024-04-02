@@ -1,3 +1,6 @@
+/* Kirtirajsinh Atodariya 
+   n01620157 */
+
 document.addEventListener('DOMContentLoaded', function() {
     const amountInput = document.getElementById('amount');
     const quartersOutput = document.getElementById('quarters');

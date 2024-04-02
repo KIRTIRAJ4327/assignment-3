@@ -1,3 +1,6 @@
+/* Kirtirajsinh Atodariya 
+   n01620157 */
+
 document.addEventListener('DOMContentLoaded', function() {
     const emailPattern = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
     const phonePattern = /^\d{10}$/; // Assuming a 10-digit phone number format
