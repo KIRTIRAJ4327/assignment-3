@@ -120,6 +120,7 @@ section {
   }
   .form-group {
     margin-bottom: 1rem;
+    padding-left: 10px;
 }
 
 .form-group label {
