@@ -67,3 +67,25 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+
+/*date*/
+const arrivalDateInput = document.getElementById('arrivalDate');
+
+
+const today = new Date();
+
+function showDatePicker() {
+
+  const selectedDate = new Date();
+
+
+  const userSelection = window.prompt('Select arrival date', selectedDate.toISOString().split('T')[0]);
+
+ 
+  if (userSelection !== null) {
+    arrivalDateInput.value = userSelection;
+  }
+}
+
+
+arrivalDateInput.addEventListener('click', showDatePicker);
